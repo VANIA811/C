@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <math.h>
+#include<locale.h>
+
+int main() {
+  setlocale (LC_CTYPE,"ua");
+  int n, s, m, h;
+n=3680;
+s=n%60;
+m=(n/60)%60;
+h=n/3600;
+ printf ("З початку доби пройшло  %d", h);
+    printf (" годин  %d", m); 
+     printf (" хвилин  %d", s);
+  printf (" секунд"); 
+
+    return 0;
+}
