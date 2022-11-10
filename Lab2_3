@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+int x,y,z,a;
+  printf("Дано ціле число x = ");
+scanf("%d",&x);
+printf("Дано ціле число y = ");
+scanf("%d",&y);
+  printf("Дано ціле число z = ");
+scanf("%d",&z);
+  if((pow(x, 2)*y*z)>0)
+  {a=(sqrt(pow(x, 2)*y*z))+(log2(x+y+z));
+    printf("a = %d",a);
+    }
+  else{
+    printf("Неможливо знайти корінь з нуля\n");
+  }
+  }
