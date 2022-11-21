@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+int a,b,p,d,r;
+printf("Дано ціле число a = ");
+scanf("%d",&a);
+printf("Дано ціле число b = ");
+scanf("%d",&b);
+if(a>0){
+    p=sqrt(a/3);
+printf("%d\n",p);
+  }
+  else{
+    printf("Неможливо знайти корінь з нуля\n");
+  }
+  d=(a*b)*2;
+  r=a-(3*b);
+printf("%d\n",d);
+  printf("%d",r);
+  }
